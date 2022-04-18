@@ -1,0 +1,8 @@
+tensorflow
+keras
+Pillow
+numpy
+tqdm
+matplotlib
+streamlit
+seaborn
