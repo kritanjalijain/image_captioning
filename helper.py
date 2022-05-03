@@ -136,14 +136,3 @@ def plot_attention(image, result, attention_plot):
     fig1=plt.tight_layout()
     return fig1
     #plt.show()
-
-
-# image_urll ='https://tensorflow.org/images/surf.jpg'
-# image_extension = image_urll[-4:]
-# image_path = tf.keras.utils.get_file('image'+image_extension, origin=image_urll)
-# print(image_path)
-# result, attention_plot = evaluate(image_path)
-# print('Prediction Caption:', ' '.join(result))
-# plot_attention(image_path, result, attention_plot)
-# # opening the image
-# Image.open(image_path)
