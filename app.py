@@ -102,7 +102,7 @@ decoder = RNN_Decoder(embedding_dim, units, tokenizer.vocabulary_size())
 
 optimizer = tf.keras.optimizers.Adam()
 
-checkpoint_path = "checkpoints/train"
+checkpoint_path = "checkpoint/train"
 ckpt = tf.train.Checkpoint(encoder=encoder,
                            decoder=decoder,
                            optimizer=optimizer)
